@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-muted-foreground">[your.email@example.com]</p>
+                  <p className="text-muted-foreground">adarshrk3651@gmail.com</p>
                 </div>
               </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Phone</p>
-                  <p className="text-muted-foreground">[+1 (555) 123-4567]</p>
+                  <p className="text-muted-foreground">+9779827349751</p>
                 </div>
               </div>
 
@@ -60,7 +60,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Location</p>
-                  <p className="text-muted-foreground">[Your City, Country]</p>
+                  <p className="text-muted-foreground">Kist Hospital, Imadol, Lalitpur, Nepal</p>
                 </div>
               </div>
             </div>
@@ -69,11 +69,15 @@ const Contact = () => {
             <div>
               <h4 className="text-lg font-semibold text-foreground mb-4">Follow Me</h4>
               <div className="flex space-x-4">
-                <Button size="icon" variant="outline" className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white">
-                  <Linkedin className="h-5 w-5" />
+                <Button size="icon" variant="outline" className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white" asChild>
+                  <a href="https://linkedin.com/in/adarsh-kumar-mandal-ba3784367" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </a>
                 </Button>
-                <Button size="icon" variant="outline" className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white">
-                  <Github className="h-5 w-5" />
+                <Button size="icon" variant="outline" className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white" asChild>
+                  <a href="[YOUR_GITHUB_URL]" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <Github className="h-5 w-5" />
+                  </a>
                 </Button>
                 <Button size="icon" variant="outline" className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white">
                   <Twitter className="h-5 w-5" />
